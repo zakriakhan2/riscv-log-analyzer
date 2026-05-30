@@ -1,0 +1,14 @@
+[2026-05-30 10:15:00] TEST START: rv32i-slt
+[2026-05-30 10:15:01] TEST PASS: rv32i-slt (0.74s)
+[2026-05-30 10:15:01] TEST START: rv32i-xori
+[2026-05-30 10:15:02] TEST FAIL: rv32i-xori (1.15s)
+[2026-05-30 10:15:02] ERROR: Register t1 value misaligned with expected signature memory
+[2026-05-30 10:15:02] TEST START: rv32i-slli
+[2026-05-30 10:15:03] TEST PASS: rv32i-slli (0.39s)
+[2026-05-30 10:15:03] TEST START: rv32i-srli
+[2026-05-30 10:15:04] TEST PASS: rv32i-srli (0.41s)
+[2026-05-30 10:15:04] TEST START: rv32i-srai
+[2026-05-30 10:15:04] TEST SKIP: rv32i-srai (custom hardware extension omitted)
+[2026-05-30 10:15:04] TEST START: rv32i-jal
+[2026-05-30 10:15:06] TEST FAIL: rv32i-jal (1.82s)
+[2026-05-30 10:15:06] ERROR: Program Counter destination tracking out of functional bounds

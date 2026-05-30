@@ -1,0 +1,21 @@
+# Ignore dynamically generated reports
+output/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+\#*\#
+
+# Temporary/Backup logs
+*.log.bak
+*.tmp
